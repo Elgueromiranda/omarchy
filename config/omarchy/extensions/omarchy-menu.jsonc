@@ -30,6 +30,6 @@
   "downloads": {
     "icon": "",
     "label": "Downloads",
-    "action": "uwsm-app -- xdg-open ~/Downloads"
+    "action": "uwsm-app -- xdg-open \"$(xdg-user-dir DOWNLOAD)\""
   }
 }
